@@ -1063,8 +1063,8 @@ img {
 
 .form-icon {
 	position: absolute;
-	left: 15px;
-	bottom: 16px;
+	left: 12px;
+	bottom: 11px;
 	transition: fill var(--transition-ms-cubic);
 
 }
