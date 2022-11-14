@@ -1035,6 +1035,12 @@ img {
 
 	background-color: transparent;
 	cursor: pointer;
+	transition: fill var(--transition-ms-cubic);
+}
+
+.close-btn:hover,
+.close-btn:focus {
+	fill: var(--accent-color);
 }
 
 .modal-title {
@@ -1045,13 +1051,13 @@ img {
 	letter-spacing: 0.03em;
 	color: var(--title-text-color);
 
-	margin-top: 40px;
-	margin-bottom: 12px;
+	padding-top: 40px;
+	padding-bottom: 12px;
 }
 
 .form-label {
 	display: block;
-	margin-bottom: 4px;
+	padding-bottom: 4px;
 	font-family: inherit;
 	font-weight: 400;
 	font-size: 12px;
@@ -1071,13 +1077,15 @@ img {
 
 .madal-form {
 	display: flex;
+	/* padding-bottom: 10px; */
+	padding-left: 41px;
+	padding-right: 39px;
 
 }
 
 .form-group {
 	width: 448px;
 	align-items: center;
-	margin: auto;
 
 }
 
@@ -1117,6 +1125,7 @@ img {
 
 	margin-bottom: 10px;
 }
+
 
 .fild {
 	margin-bottom: 20px;
@@ -1224,7 +1233,7 @@ img {
 	justify-content: center;
 	align-items: center;
 
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .form-agreement-text {
