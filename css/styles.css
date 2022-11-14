@@ -1090,7 +1090,7 @@ img {
 }
 
 .form-iput {
-	padding-left: 42px;
+	padding: 12px 42px;
 	width: 448px;
 	height: 40px;
 
@@ -1164,7 +1164,6 @@ img {
 	display: block;
 	margin: 0 auto;
 	padding: 10px 52px;
-	/* margin-top: 30px; */
 
 	font-family: inherit;
 	font-weight: 700;
@@ -1237,7 +1236,7 @@ img {
 }
 
 .form-agreement-text {
-	/* margin-bottom: 30px; */
+
 	user-select: none;
 
 	font-weight: 400;
@@ -1250,5 +1249,6 @@ img {
 }
 
 .form-agreement-link {
+	text-decoration: underline;
 	color: var(--accent-color);
 }
